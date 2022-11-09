@@ -1,0 +1,81 @@
+.left-sidebar {
+  text-align: center;
+  padding: 16px;
+  width: fit-content;
+}
+
+.channel-sidebar {
+  width: 200px;
+}
+
+.left-sidebar > h2 {
+  color: #6b656a;
+  padding: 8px;
+  width: fit-content;
+  font-size: 20px;
+}
+
+.left-sidebar > h2:hover {
+  color: #D2A454;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.left-sidebar > .active {
+  color: #D2A454;
+  background-color: RGB(70, 20, 18);
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.channel-sidebar {
+  background-color: RGB(70, 20, 18);
+  padding: 16px
+}
+
+.channel-sidebar .active {
+  color: #D2A454;
+}
+
+.channel-sidebar > h2 {
+  color: #D2A454;
+  font-weight: bold;
+}
+
+.channel {
+  color: #7a674c;
+  font-weight: lighter;
+}
+
+.channel-sidebar span {
+  color: #7a674c;
+}
+
+.channel-header {
+  color: #D2A454;
+  margin-bottom: 0;
+}
+
+.channel-header > h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#current-user {
+  margin-bottom: 24px;
+}
+
+.channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channels {
+  margin-bottom: 16px;
+}
+
+.channel-user {
+  display: flex;
+  align-items: center;
+}
